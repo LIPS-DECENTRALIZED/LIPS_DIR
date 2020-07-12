@@ -1,0 +1,86 @@
+#lips{
+    float: left;
+    opacity: 1;
+
+    overflow:hidden;
+    height: 68px;
+}
+#lips:after{
+    float: left;
+    opacity: 1;
+ 
+}
+#lips:hover{
+    float: left;
+    opacity: 1;
+    height: 303px;
+    width: 100%;
+    border-bottom: solid 1px black;
+
+}
+#lips_logo{
+    height:64px;
+    margin-left: 10px;
+    opacity: 1;
+    z-index: 100;
+}
+#lips_logo:before{
+    height:64px;
+    margin-left: 10px;
+    opacity: 1;
+    z-index: 100;
+}
+#lips_menu{
+    background: rgb(255, 0, 0);
+    width: calc( 100% - 10px );
+    height: 215px;
+    padding: 10px;
+    border-top: solid 1px black;
+}
+
+.lips_menu_link{
+    color:white;
+    text-decoration: none;
+}
+.lips_menu_link:hover{
+  
+
+}
+
+.menu_row{
+    width: 100%;
+    height: 110px;
+}
+
+.lips_dir_button{
+    padding-top:20px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 80px;
+    color: white;
+
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lips_dir_icon{
+    width: 32px;
+    margin-top: 10px;
+}
+
+.float_right{
+    float: right;
+}
+.float_left{
+    float: left;
+}
+
+.lips_dir_button:hover{
+
+
+    background: rgb(150, 2, 2);
+
+}

@@ -1,0 +1,72 @@
+#login{
+    position: fixed;
+    right: 0px;
+    width:  calc( 100% - 200px);
+}
+
+#metamask{
+    float: right;
+    cursor: pointer;
+}
+#metamask_logo{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 52px;
+    height:52px;
+}
+.lips_menu {
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 30px;
+    color: red;
+    float: right;
+    margin-top: 15px;
+}
+#lips_account {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: none;
+}
+#lips_account:hover{
+    background: magenta;
+}
+
+#lips_search_panel{
+    height: 50px;
+    width: 50px;
+    //background: red;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#lips_search_panel:hover{
+    width: calc( 100% - 330px);
+}
+
+#lips_search_icon{
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#lips_search_field{
+    float: left;
+    height: 40px;
+    width: calc( 100% - 85px );
+    margin-top: 0px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding-left: 10px;
+}
